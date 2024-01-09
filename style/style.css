@@ -41,6 +41,10 @@ main {
     background-color: rgb(20, 70, 110);
 }
 
+main p {
+    margin-bottom: 0.5rem;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -57,6 +61,7 @@ footer p {
 a, a:visited {
     color:antiquewhite;
     text-decoration: none;
+    display: block;
 }
 
 a:hover {
