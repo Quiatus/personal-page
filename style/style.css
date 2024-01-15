@@ -76,3 +76,35 @@ a, a:visited {
 a:hover {
     color: #c8bcac;
 }
+
+div {
+    margin-bottom: 2rem;
+}
+
+div:last-of-type {
+    margin-bottom: 0;
+}
+
+#joke {
+    color: antiquewhite;
+    font-style: italic;
+}
+
+button {
+    border: 2px solid aliceblue;
+    background-color: rgb(20, 70, 110);
+    color: aliceblue;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 10px antiquewhite;
+    text-shadow: 0 0 5px antiquewhite;;
+}
+
+button:active {
+    transform: scale(0.95);
+}

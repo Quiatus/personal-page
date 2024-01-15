@@ -6,6 +6,7 @@
     <title>Quiatus - Web Dev</title>
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,10 +15,20 @@
     </header>
 
     <main>
-        <p>Some quick games:</p>
+        <div class="games">
+            <p>Some quick games:</p>
 
-        <a href="/games/blackjack/index.html" target="_blank">Blackjack</a>
-        <a href="/games/snake/index.html">Snake</a>
+            <a href="/games/blackjack/index.html" target="_blank">Blackjack</a>
+            <a href="/games/snake/index.html">Snake</a>
+        </div>
+
+        <div class="jokes">
+            <p>Dad joke:</p>
+            <p id="joke">test</p>
+
+            <button id="generateJoke">New joke</button>
+        </div>
+        
     </main>
 
     <footer>
